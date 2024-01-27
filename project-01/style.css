@@ -1,0 +1,83 @@
+.main{
+    width: 100%;
+    height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+    background-image: url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+.part{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    
+
+}
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+.nav-item{
+    margin: 5px;
+}
+.nav-link{
+    color: white;
+
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    /* background-color: aqua !important; */
+    height: 400px;
+    padding: 50px;
+    margin: 20px;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    height: 600px;
+}
+.cotainer-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: start;
+    margin:  0 auto;
+    background-color: rgb(77, 72, 72);
+}
+.cont-main{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+
+}
+.inner-text{
+    padding: 10%;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    /* background-color: rgb(77, 72, 72); */
+
+}
+.card-body a{
+    text-decoration: none;
+    font-size: 28px;
+}
+.card-img-top{
+    width: 100% ;
+}
+.card{
+    height: 500px;
+}
